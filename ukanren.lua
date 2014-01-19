@@ -35,6 +35,7 @@ local function cons(x, y)
 end
 local function car(x) return x[1] end
 local function cdr(x) return x[2] end
+local function is_pair(x) return getmetatable(x) == Cons end
 
 -- Prettyprint cons cells, Scheme-style
 Cons.__tostring = function(c)
