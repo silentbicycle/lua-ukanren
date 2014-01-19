@@ -9,3 +9,8 @@ papers' authors' request.
 
 [1]: http://webyrd.net/scheme-2013/papers/HemannMuKanren2013.pdf
 [2]: https://github.com/jasonhemann/microKanren
+
+Note that this is extremely alpha code! I wrote it while working through
+that paper. Don't consider it robust, don't use it in production yet,
+etc. The example uses from the paper don't even give full branch
+coverage.
