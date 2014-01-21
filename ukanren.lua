@@ -19,7 +19,7 @@
 -- Logic variables
 local Var = {}
 Var.__tostring = function(v) return table.concat{"#(", v[1], ")"} end
-Var.__eq = function(x1, x1) return x1[1] == x2[1] end
+Var.__eq = function(x1, x2) return x1[1] == x2[1] end
 local function var(c) return setmetatable({c}, Var) end
 local function is_var(x) return getmetatable(x) == Var end
 
